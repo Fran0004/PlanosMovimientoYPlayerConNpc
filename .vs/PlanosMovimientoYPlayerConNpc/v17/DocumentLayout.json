@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|c:\\users\\franv\\documents\\github\\planosmovimientoyplayerconnpc\\assets\\modelos\\playeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos\\playeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|c:\\users\\franv\\documents\\github\\planosmovimientoyplayerconnpc\\assets\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playerAnimations.cs",
+              "DocumentMoniker": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\modelos\\playerAnimations.cs",
+              "RelativeDocumentMoniker": "Assets\\modelos\\playerAnimations.cs",
+              "ToolTip": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\modelos\\playerAnimations.cs",
+              "RelativeToolTip": "Assets\\modelos\\playerAnimations.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:59:14.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "playerScript.cs",
+              "DocumentMoniker": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\playerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\playerScript.cs",
+              "ToolTip": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\playerScript.cs",
+              "RelativeToolTip": "Assets\\playerScript.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:03:55.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

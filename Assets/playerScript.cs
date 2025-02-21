@@ -39,7 +39,7 @@ public class playerScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             mousePosition = Input.mousePosition;
             Debug.Log(mousePosition.z.ToString());
-            mousePosition.z = 4;
+            mousePosition.z = 0;
             worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
             Debug.Log("mouse: " + mousePosition);
             Debug.Log("posicion: "+worldPosition);
