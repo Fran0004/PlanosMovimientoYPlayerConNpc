@@ -37,13 +37,12 @@ public class playerScript : MonoBehaviour
             posicionObjeto = 3;
         }
         if (Input.GetMouseButtonDown(0)) {
-            mousePosition = Input.mousePosition;
-            Debug.Log(mousePosition.z.ToString());
-            mousePosition.z = 0;
-            worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-            Debug.Log("mouse: " + mousePosition);
-            Debug.Log("posicion: "+worldPosition);
-            agente.SetDestination(worldPosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                agente.SetDestination(hit.point);
+            }
         }
         if (posicionObjeto != null) { 
             agente.SetDestination(objetivos[(int)posicionObjeto].position);

@@ -16,8 +16,9 @@ public class playerAnimations : MonoBehaviour
 
     void Update()
     {
-
-        if (transform.position != actualPosition)
+        if (Input.GetKeyDown(KeyCode.Space)) { 
+            
+        }else if (transform.position != actualPosition)
         {
             isWalking = true;
             actualPosition = transform.position;
@@ -26,6 +27,6 @@ public class playerAnimations : MonoBehaviour
             isWalking= false;
         }
         animator.SetBool("isWalking", isWalking);
-        Debug.Log(isWalking.ToString());
+        //Debug.Log(isWalking.ToString());
     }
 }
