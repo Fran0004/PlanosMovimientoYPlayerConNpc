@@ -12,6 +12,8 @@ public class itemChest : MonoBehaviour
     private List<scriptItem> itemData;
     private SphereCollider sphereCollider;
     private bool canOpen = false;
+    private GameObject itemGenerado;
+    private GameObject ultimoItem;
 
     void Start()
     {
@@ -38,9 +40,20 @@ public class itemChest : MonoBehaviour
                     if (hit.collider.CompareTag("Chest")) // Asegúrate de poner la etiqueta en el objeto
                     {
 
-                        Instantiate(RandomItem(), new Vector3(transform.position.x,transform.position.y+1f,transform.position.z), Quaternion.identity);
+                        if (ultimoItem != null)
+                        {
+                            DestroyImmediate(ultimoItem);
+                            
+                        }
+
+                        itemGenerado = RandomItem();  
+
                        
-                        
+                        Instantiate(itemGenerado, new Vector3(transform.position.x, transform.position.y + 1f, transform.position.z), Quaternion.identity);
+
+                      
+                        ultimoItem = itemGenerado;
+
                     }
                 }
             }
@@ -63,7 +76,7 @@ public class itemChest : MonoBehaviour
         }
     }
     private GameObject RandomItem() { 
-      float rndNum =  4;
+      float rndNum =  Random.Range(1,100);
         
         foreach (var item in itemData) {
             Debug.Log("numbre rnd " + rndNum + ", item rarety: " + item.itemData.rarity.probability);

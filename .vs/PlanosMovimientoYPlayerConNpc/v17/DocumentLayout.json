@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|c:\\users\\franv\\documents\\github\\planosmovimientoyplayerconnpc\\assets\\scripts\\itemchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\assets\\scripts\\itemchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\assets\\scripts\\scriptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|c:\\users\\franv\\documents\\github\\planosmovimientoyplayerconnpc\\assets\\scripts\\scriptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemsso\\rarezas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\assets\\modelos\\playeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos\\playeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1791A553-6441-D2C3-8C32-A942968CE686}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\scriptItem.cs",
               "ToolTip": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\scripts\\scriptItem.cs",
               "RelativeToolTip": "Assets\\scripts\\scriptItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T13:42:10.125Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\itemChest.cs",
               "ToolTip": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\scripts\\itemChest.cs",
               "RelativeToolTip": "Assets\\scripts\\itemChest.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwDAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwFkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T13:40:04.614Z",
               "EditorCaption": ""
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ItemSO.cs",
               "DocumentMoniker": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\scripts\\ItemSO.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ItemSO.cs",
@@ -81,12 +81,11 @@
               "RelativeToolTip": "Assets\\scripts\\ItemSO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:55:01.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T12:55:01.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "playerAnimations.cs",
               "DocumentMoniker": "C:\\Users\\franv\\Documents\\GitHub\\PlanosMovimientoYPlayerConNpc\\Assets\\modelos\\playerAnimations.cs",
               "RelativeDocumentMoniker": "Assets\\modelos\\playerAnimations.cs",

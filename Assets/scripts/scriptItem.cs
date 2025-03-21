@@ -22,7 +22,7 @@ public class scriptItem : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(transform.position.y);
+        
         if (yPosition + 0.5 < transform.position.y && !finalPosition)
         {
             startPos = transform.position;
@@ -34,10 +34,11 @@ public class scriptItem : MonoBehaviour
             float offsetY = Mathf.Sin(Time.time * frequency) * amplitude;
             transform.position = startPos + new Vector3(0, offsetY-0.5f, 0);
         }
-    }   
-    public string ToString() { 
-        return itemData.ToString();
     }
-  
+    public void OnDestroy()
+    {
+        Destroy(gameObject);
+    }
+
 
 }
